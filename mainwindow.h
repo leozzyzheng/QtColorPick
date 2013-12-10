@@ -35,6 +35,7 @@ private:
 	HDC					m_hDesktopDC;
 	int					m_screenWidth;
 	int					m_screenHeight;
+	QTimer *		    m_pTimer;
 };
 
 #endif // MAINWINDOW_H
